@@ -1,257 +1,318 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<meta charset="UTF-8">
-<title>Portfolio SER</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SER | Portfolio de Diseño</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-<header class="cabecera">
-  <a href="#inicio" class="marca-logo">
-    <img src="fotos/isotipo-ser.png" alt="Isotipo SER">
-  </a>
+  <header class="cabecera">
+    <a href="#inicio" class="marca-logo" aria-label="Inicio SER">
+      <img src="fotos/isotipo-ser.png" alt="Isotipo SER">
+    </a>
 
-  <nav class="menu">
-    <a href="#inicio">Inicio</a>
-    <a href="#sobre-mi">Sobre mí</a>
-    <a href="#servicios">Servicios</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
+    <nav class="menu">
+      <a href="#inicio">Inicio</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
 
-  <div class="iconos-header">
-    <a href="mailto:luuserranomaci@gmail.com" title="Email">✉</a>
-    <a href="https://www.instagram.com/luuserranomaci" target="_blank" title="Instagram">◎</a>
-    <a href="https://www.linkedin.com/" target="_blank" title="LinkedIn">in</a>
-  </div>
-</header>
-
-<main>
-
-<section id="inicio" class="inicio">
-  <div class="texto-inicio">
-    <p class="etiqueta">Portfolio creativo</p>
-    <h1>Diseño que comunica desde la identidad.</h1>
-    <p>
-      SER es mi marca personal de diseño gráfico. A través de ella reúno mis proyectos de identidad visual, packaging, diseño editorial, ilustración y rediseño.
-    </p>
-    <p>
-      Mi objetivo es crear piezas visuales cuidadas, funcionales y con personalidad, comunicando siempre desde la identidad de cada proyecto.
-    </p>
-
-    <div class="botones">
-      <a href="#portfolio" class="boton">Ver portfolio</a>
-      <a href="#contacto" class="boton-secundario">Contactar</a>
+    <div class="iconos-header">
+      <a href="mailto:ser.diseno@gmail.com" aria-label="Email" title="Email"><svg class="social-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16c1.1 0 2 .9 2 2v10c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V7c0-1.1.9-2 2-2Zm0 3.2v8.8h16V8.2l-7.4 5.5c-.4.3-.9.3-1.2 0L4 8.2Zm1.4-1.2 6.6 4.9L18.6 7H5.4Z"/></svg></a>
+      <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram" title="Instagram"><svg class="social-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm0 2A3.8 3.8 0 0 0 4 7.8v8.4A3.8 3.8 0 0 0 7.8 20h8.4a3.8 3.8 0 0 0 3.8-3.8V7.8A3.8 3.8 0 0 0 16.2 4H7.8ZM12 7.2A4.8 4.8 0 1 1 12 16.8 4.8 4.8 0 0 1 12 7.2Zm0 2A2.8 2.8 0 1 0 12 14.8 2.8 2.8 0 0 0 12 9.2Zm5.1-2.45a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z"/></svg></a>
+      <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn" title="LinkedIn"><span class="linkedin-icon">in</span></a>
     </div>
-  </div>
+  </header>
 
-  <div class="imagen-inicio">
-    <img src="fotos/logo-ser.png" alt="Logo SER">
-  </div>
-</section>
+  <main>
 
-<section id="sobre-mi" class="sobre-mi">
-  <div class="titulo-seccion">
-    <p>Sobre mí</p>
-    <h2>Hola, soy Lucía Serrano</h2>
-  </div>
+    <section class="hero" id="inicio">
+      <div class="hero-texto">
+        <p class="etiqueta">Portfolio creativo</p>
+        <h1>Diseño que comunica desde <em>la identidad.</em></h1>
+        <p class="intro">
+          SER es una marca personal de diseño gráfico creada para desarrollar identidades,
+          packaging, diseño editorial y piezas visuales con personalidad, estrategia y sensibilidad estética.
+        </p>
+        <div class="botones">
+          <a href="#portfolio" class="boton boton-blanco">Ver proyectos</a>
+          <a href="#contacto" class="boton boton-linea">Contacta conmigo</a>
+        </div>
+      </div>
 
-  <div class="contenido-sobre-mi">
-    <p>
-      Soy estudiante de Diseño Gráfico y me interesa especialmente la creación de identidades visuales, el diseño editorial, el packaging y la comunicación de marca.
-    </p>
-    <p>
-      SER nace como una forma de reunir mis proyectos y mostrar mi manera de entender el diseño: crear propuestas visuales con sentido, coherencia y personalidad.
-    </p>
-  </div>
-</section>
+      <div class="hero-visual">
+        <img class="logo-principal" src="fotos/logo-ser.png" alt="Logotipo SER">
+        <span class="estrella estrella-uno">✦</span>
+        <span class="estrella estrella-dos">✦</span>
+      </div>
+    </section>
 
-<section id="servicios" class="servicios">
-  <div class="titulo-seccion">
-    <p>Servicios</p>
-    <h2>Qué puedo hacer desde SER</h2>
-  </div>
+    <section class="sobre" id="sobre-mi">
+      <div class="titulo-seccion">
+        <p>Sobre mí</p>
+        <h2>Hola, soy Lucía Serrano</h2>
+      </div>
 
-  <div class="caja-servicios">
-    <article>
-      <h3>Identidad corporativa</h3>
-      <p>Diseño de logotipos, sistemas visuales y aplicaciones de marca.</p>
-    </article>
+      <div class="sobre-contenido">
+        <div class="sobre-tarjeta destacada">
+          <h3>Diseño desde la identidad</h3>
+          <p>
+            SER nace como una forma de entender el diseño desde lo esencial: comunicar quién eres,
+            qué quieres transmitir y cómo quieres que te recuerden. Mi trabajo combina estética,
+            estrategia y sensibilidad visual para construir proyectos con personalidad.
+          </p>
+        </div>
 
-    <article>
-      <h3>Packaging</h3>
-      <p>Diseño de etiquetas, envases y presentación visual de productos.</p>
-    </article>
+        <div class="sobre-tarjeta">
+          <h3>Especialidades</h3>
+          <ul>
+            <li>Identidad corporativa</li>
+            <li>Packaging y producto</li>
+            <li>Diseño editorial</li>
+            <li>Ilustración aplicada</li>
+            <li>Rediseño y comunicación visual</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-    <article>
-      <h3>Diseño editorial</h3>
-      <p>Portadas, revistas, publicaciones y piezas impresas.</p>
-    </article>
+    <section class="servicios" id="servicios">
+      <div class="titulo-seccion centro">
+        <p>Servicios</p>
+        <h2>Qué hacemos en SER</h2>
+      </div>
 
-    <article>
-      <h3>Ilustración</h3>
-      <p>Ilustraciones aplicadas a proyectos gráficos y editoriales.</p>
-    </article>
+      <div class="servicios-grid">
+        <article>
+          <span>01</span>
+          <h3>Identidad corporativa</h3>
+          <p>Logotipos, sistemas visuales, paletas cromáticas y aplicaciones de marca.</p>
+        </article>
 
-    <article>
-      <h3>Rediseño</h3>
-      <p>Actualización visual de piezas gráficas para mejorar su comunicación.</p>
-    </article>
+        <article>
+          <span>02</span>
+          <h3>Packaging</h3>
+          <p>Diseño de envases, etiquetas y piezas que conectan producto y consumidor.</p>
+        </article>
 
-    <article>
-      <h3>Diseño para eventos</h3>
-      <p>Entradas, bolsas, piezas promocionales y materiales gráficos.</p>
-    </article>
-  </div>
-</section>
+        <article>
+          <span>03</span>
+          <h3>Diseño editorial</h3>
+          <p>Portadas, revistas, publicaciones y composiciones con criterio visual.</p>
+        </article>
 
-<section id="portfolio" class="portfolio">
-  <div class="titulo-seccion">
-    <p>Portfolio</p>
-    <h2>Trabajos destacados</h2>
-  </div>
+        <article>
+          <span>04</span>
+          <h3>Ilustración</h3>
+          <p>Ilustración aplicada a proyectos gráficos, editoriales y de comunicación.</p>
+        </article>
 
-  <div class="bloque-proyecto">
-    <div class="texto-proyecto">
-      <h3>Packaging</h3>
-      <p>Proyecto Under Pressure aplicado a vino tinto y vino blanco.</p>
+        <article>
+          <span>05</span>
+          <h3>Diseño para eventos</h3>
+          <p>Entradas, bolsas, soportes gráficos y experiencias visuales completas.</p>
+        </article>
+
+        <article>
+          <span>06</span>
+          <h3>Rediseño</h3>
+          <p>Actualización visual de piezas para hacerlas más actuales, coherentes y memorables.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="titulo-seccion centro">
+        <p>Portfolio</p>
+        <h2>Trabajos destacados</h2>
+      </div>
+
+      <div class="categorias">
+        <a href="#packaging">Packaging</a>
+        <a href="#producto">Diseño de producto</a>
+        <a href="#editorial">Editorial</a>
+        <a href="#disney">Disney Expo</a>
+        <a href="#identidad">Identidad</a>
+        <a href="#rediseno">Rediseño</a>
+      </div>
+
+      <p class="aviso-imagenes">Pulsa sobre cualquier imagen para verla completa.</p>
+
+      <section class="bloque-proyecto" id="packaging">
+        <div class="bloque-texto">
+          <p class="etiqueta">Packaging</p>
+          <h3>Under Pressure</h3>
+          <p>
+            Proyecto de packaging para una línea de vino tinto y vino blanco con una identidad gráfica
+            expresiva, ilustrada y con un tono joven. La propuesta trabaja etiqueta frontal, contraetiqueta,
+            color, ilustración y narrativa de producto.
+          </p>
+        </div>
+        <div class="galeria dos-columnas">
+          <figure>
+            <a href="fotos/vino-tinto.png" target="_blank"><img src="fotos/vino-tinto.png" alt="Diseño de packaging vino tinto"></a>
+            <figcaption>Vino tinto</figcaption>
+          </figure>
+          <figure>
+            <a href="fotos/vino-blanco.png" target="_blank"><img src="fotos/vino-blanco.png" alt="Diseño de packaging vino blanco"></a>
+            <figcaption>Vino blanco</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="bloque-proyecto alterno" id="producto">
+        <div class="bloque-texto">
+          <p class="etiqueta">Diseño de producto</p>
+          <h3>Etiquetas de melón y sandía</h3>
+          <p>
+            Diseño de etiquetas para productos hortofrutícolas, pensadas para diferenciar el producto
+            en el punto de venta y reforzar su identidad visual desde una estética premium, reconocible y comercial.
+          </p>
+        </div>
+        <div class="galeria tres-columnas tarjetas-svg">
+          <figure>
+            <a href="fotos/etiqueta-sandia.png" target="_blank"><img src="fotos/etiqueta-sandia.png" alt="Etiqueta de sandía 18 grados"></a>
+            <figcaption>18º Grados · Sandía selección premium</figcaption>
+          </figure>
+          <figure>
+            <a href="fotos/etiqueta-melon.png" target="_blank"><img src="fotos/etiqueta-melon.png" alt="Etiqueta de melón 18 grados más"></a>
+            <figcaption>18º Grados Más · Melón selección premium</figcaption>
+          </figure>
+          <figure>
+            <a href="fotos/etiqueta-el-krack.png" target="_blank"><img src="fotos/etiqueta-el-krack.png" alt="Etiqueta El Krack"></a>
+            <figcaption>El Krack</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="bloque-proyecto" id="editorial">
+        <div class="bloque-texto">
+          <p class="etiqueta">Editorial</p>
+          <h3>Revista y publicación</h3>
+          <p>
+            Proyectos editoriales centrados en la composición, la jerarquía visual, el uso de la tipografía
+            y la dirección de arte aplicada a portadas y publicaciones impresas.
+          </p>
+        </div>
+        <div class="galeria una-columna">
+          <figure>
+            <a href="fotos/revista-interview.jpg" target="_blank"><img src="fotos/revista-interview.jpg" alt="Portada editorial de revista"></a>
+            <figcaption>Diseño editorial de revista</figcaption>
+          </figure>
+          <figure>
+            <a href="fotos/cuentos-infantiles.jpg" target="_blank"><img src="fotos/cuentos-infantiles.jpg" alt="Portadas de cuentos infantiles ilustrados"></a>
+            <figcaption>Cuentos infantiles ilustrados</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="bloque-proyecto alterno" id="disney">
+        <div class="bloque-texto">
+          <p class="etiqueta">Diseño para eventos</p>
+          <h3>Disney Expo</h3>
+          <p>
+            Proyecto gráfico para una exposición temática inspirada en el universo Disney. Incluye entradas,
+            bolsas de papel y aplicaciones visuales pensadas para crear una experiencia reconocible y coherente.
+          </p>
+        </div>
+        <div class="galeria dos-columnas">
+          <figure>
+            <a href="fotos/disney-entrada.jpg" target="_blank"><img src="fotos/disney-entrada.jpg" alt="Entrada Disney Expo"></a>
+            <figcaption>Entrada del evento</figcaption>
+          </figure>
+          <figure>
+            <a href="fotos/disney-bolsas.jpg" target="_blank"><img src="fotos/disney-bolsas.jpg" alt="Bolsas de papel Disney Expo"></a>
+            <figcaption>Bolsas de papel</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="bloque-proyecto" id="identidad">
+        <div class="bloque-texto">
+          <p class="etiqueta">Identidad corporativa</p>
+          <h3>Joz Cosmética</h3>
+          <p>
+            Desarrollo de identidad visual para una marca de cosmética. El proyecto incluye logotipo,
+            isotipo, selección tipográfica, gama cromática y una estética delicada vinculada al bienestar y la belleza.
+          </p>
+        </div>
+        <div class="galeria una-columna">
+          <figure>
+            <a href="fotos/joz-cosmetica.jpg" target="_blank"><img src="fotos/joz-cosmetica.jpg" alt="Identidad corporativa Joz Cosmética"></a>
+            <figcaption>Manual visual de Joz Cosmética</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="bloque-proyecto alterno" id="rediseno">
+        <div class="bloque-texto">
+          <p class="etiqueta">Rediseño</p>
+          <h3>Talking To The Moon</h3>
+          <p>
+            Rediseño gráfico aplicado a una pieza musical en formato vinilo. La propuesta trabaja atmósfera,
+            imagen, composición y aplicación final para crear una pieza visual más emocional y contemporánea.
+          </p>
+        </div>
+        <div class="galeria una-columna">
+          <figure>
+            <a href="fotos/vinilo.jpg" target="_blank"><img src="fotos/vinilo.jpg" alt="Rediseño de vinilo Talking To The Moon"></a>
+            <figcaption>Rediseño de vinilo</figcaption>
+          </figure>
+        </div>
+      </section>
+    </section>
+
+    <section class="contacto" id="contacto">
+      <div class="contacto-texto">
+        <p class="etiqueta">Contacto</p>
+        <h2>¿Creamos algo con identidad?</h2>
+        <p>
+          Si tienes un proyecto, una idea o una marca que necesita expresarse mejor,
+          puedes escribirme a través de este formulario.
+        </p>
+
+        <div class="redes-contacto">
+          <a href="mailto:ser.diseno@gmail.com"><svg class="social-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16c1.1 0 2 .9 2 2v10c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V7c0-1.1.9-2 2-2Zm0 3.2v8.8h16V8.2l-7.4 5.5c-.4.3-.9.3-1.2 0L4 8.2Zm1.4-1.2 6.6 4.9L18.6 7H5.4Z"/></svg><span>Email</span></a>
+          <a href="https://www.instagram.com/" target="_blank"><svg class="social-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm0 2A3.8 3.8 0 0 0 4 7.8v8.4A3.8 3.8 0 0 0 7.8 20h8.4a3.8 3.8 0 0 0 3.8-3.8V7.8A3.8 3.8 0 0 0 16.2 4H7.8ZM12 7.2A4.8 4.8 0 1 1 12 16.8 4.8 4.8 0 0 1 12 7.2Zm0 2A2.8 2.8 0 1 0 12 14.8 2.8 2.8 0 0 0 12 9.2Zm5.1-2.45a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z"/></svg><span>Instagram</span></a>
+          <a href="https://www.linkedin.com/" target="_blank"><span class="linkedin-icon">in</span><span>LinkedIn</span></a>
+        </div>
+      </div>
+
+      <form class="formulario" action="mailto:ser.diseno@gmail.com" method="post" enctype="text/plain">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" placeholder="tuemail@gmail.com" required>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntame tu idea" required></textarea>
+
+        <button type="submit">Enviar consulta</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <div class="pie-logo">
+      <img src="fotos/isotipo-ser.png" alt="Isotipo SER">
+      <p>Comunicar desde la identidad</p>
     </div>
 
-    <div class="galeria">
-      <a href="fotos/vino-tinto.png" target="_blank">
-        <img src="fotos/vino-tinto.png" alt="Packaging vino tinto">
-      </a>
-
-      <a href="fotos/vino-blanco.png" target="_blank">
-        <img src="fotos/vino-blanco.png" alt="Packaging vino blanco">
-      </a>
+    <div class="pie-redes">
+      <a href="mailto:ser.diseno@gmail.com"><svg class="social-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16c1.1 0 2 .9 2 2v10c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V7c0-1.1.9-2 2-2Zm0 3.2v8.8h16V8.2l-7.4 5.5c-.4.3-.9.3-1.2 0L4 8.2Zm1.4-1.2 6.6 4.9L18.6 7H5.4Z"/></svg><span>Email</span></a>
+      <a href="https://www.instagram.com/" target="_blank"><svg class="social-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm0 2A3.8 3.8 0 0 0 4 7.8v8.4A3.8 3.8 0 0 0 7.8 20h8.4a3.8 3.8 0 0 0 3.8-3.8V7.8A3.8 3.8 0 0 0 16.2 4H7.8ZM12 7.2A4.8 4.8 0 1 1 12 16.8 4.8 4.8 0 0 1 12 7.2Zm0 2A2.8 2.8 0 1 0 12 14.8 2.8 2.8 0 0 0 12 9.2Zm5.1-2.45a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z"/></svg><span>Instagram</span></a>
+      <a href="https://www.linkedin.com/" target="_blank"><span class="linkedin-icon">in</span><span>LinkedIn</span></a>
     </div>
-  </div>
-
-  <div class="bloque-proyecto">
-    <div class="texto-proyecto">
-      <h3>Diseño de producto</h3>
-      <p>Diseño de etiquetas para melón y sandía premium.</p>
-    </div>
-
-    <div class="galeria tres">
-      <a href="fotos/etiqueta-sandia-18-grados.png" target="_blank">
-        <img src="fotos/etiqueta-sandia-18-grados.png" alt="Etiqueta sandía 18 grados">
-      </a>
-
-      <a href="fotos/etiqueta-melon-18-grados-mas.png" target="_blank">
-        <img src="fotos/etiqueta-melon-18-grados-mas.png" alt="Etiqueta melón 18 grados más">
-      </a>
-
-      <a href="fotos/etiqueta-el-krack.png" target="_blank">
-        <img src="fotos/etiqueta-el-krack.png" alt="Etiqueta El Krack">
-      </a>
-    </div>
-  </div>
-
-  <div class="bloque-proyecto">
-    <div class="texto-proyecto">
-      <h3>Identidad corporativa</h3>
-      <p>Proyecto de identidad visual para Joz Cosmética.</p>
-    </div>
-
-    <div class="galeria">
-      <a href="fotos/joz-cosmetica.jpg" target="_blank">
-        <img src="fotos/joz-cosmetica.jpg" alt="Identidad corporativa Joz Cosmética">
-      </a>
-    </div>
-  </div>
-
-  <div class="bloque-proyecto">
-    <div class="texto-proyecto">
-      <h3>Diseño editorial</h3>
-      <p>Diseño de revista y proyecto musical Talking To The Moon.</p>
-    </div>
-
-    <div class="galeria">
-      <a href="fotos/revista.jpg" target="_blank">
-        <img src="fotos/revista.jpg" alt="Diseño editorial revista">
-      </a>
-
-      <a href="fotos/vinilo.jpg" target="_blank">
-        <img src="fotos/vinilo.jpg" alt="Diseño de vinilo">
-      </a>
-    </div>
-  </div>
-
-  <div class="bloque-proyecto">
-    <div class="texto-proyecto">
-      <h3>Ilustración</h3>
-      <p>Ilustraciones aplicadas a portadas de cuentos infantiles.</p>
-    </div>
-
-    <div class="galeria">
-      <a href="fotos/infantil.jpg" target="_blank">
-        <img src="fotos/infantil.jpg" alt="Cuentos infantiles ilustrados">
-      </a>
-    </div>
-  </div>
-
-  <div class="bloque-proyecto">
-    <div class="texto-proyecto">
-      <h3>Disney Expo</h3>
-      <p>Diseño gráfico para una exposición inspirada en el universo Disney.</p>
-    </div>
-
-    <div class="galeria">
-      <a href="fotos/disney-entrada.jpg" target="_blank">
-        <img src="fotos/disney-entrada.jpg" alt="Entrada Disney Expo">
-      </a>
-
-      <a href="fotos/disney-bolsas.jpg" target="_blank">
-        <img src="fotos/disney-bolsas.jpg" alt="Bolsas Disney Expo">
-      </a>
-    </div>
-  </div>
-
-</section>
-
-<section id="contacto" class="contacto">
-  <div class="titulo-seccion">
-    <p>Contacto</p>
-    <h2>¿Hablamos?</h2>
-  </div>
-
-  <p>
-    Si quieres saber más sobre mi trabajo o contactar conmigo, puedes escribirme a través del formulario.
-  </p>
-
-  <form class="formulario">
-    <label>Nombre completo</label>
-    <input type="text" placeholder="Escribe tu nombre">
-
-    <label>Email</label>
-    <input type="email" placeholder="Escribe tu email">
-
-    <label>Mensaje</label>
-    <textarea placeholder="Escribe tu mensaje"></textarea>
-
-    <button type="submit">Enviar</button>
-  </form>
-</section>
-
-</main>
-
-<footer class="pie">
-  <img src="fotos/isotipo-ser.png" alt="Isotipo SER">
-
-  <p>Comunicar desde la identidad</p>
-
-  <div class="enlaces-pie">
-    <a href="mailto:luuserranomaci@gmail.com">Email</a>
-    <a href="https://www.instagram.com/luuserranomaci" target="_blank">Instagram</a>
-    <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-  </div>
-
-  <p>© 2026 Lucía Serrano</p>
-</footer>
+  </footer>
 
 </body>
 </html>
